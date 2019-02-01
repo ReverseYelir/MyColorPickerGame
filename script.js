@@ -21,7 +21,7 @@ function colorSquares(){
 		squares[i].style.background = colors[i];
 		squares[i].addEventListener('click', function(){
 			if(this.style.background !== rgbGoal){
-				this.style.background = '#2B2B2B';
+				this.style.background = '#1C211D';
 				message.textContent = 'Incorrect!';
 			} else {
 				message.textContent = 'Correct!';
